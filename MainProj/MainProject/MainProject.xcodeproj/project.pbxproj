@@ -16,6 +16,9 @@
 		40D936E829A5DBEC006DAFDB /* MainProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D936E729A5DBEC006DAFDB /* MainProjectTests.swift */; };
 		40D936F229A5DBEC006DAFDB /* MainProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D936F129A5DBEC006DAFDB /* MainProjectUITests.swift */; };
 		40D936F429A5DBEC006DAFDB /* MainProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D936F329A5DBEC006DAFDB /* MainProjectUITestsLaunchTests.swift */; };
+		40D9386129AC4696006DAFDB /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9386029AC4696006DAFDB /* RadarView.swift */; };
+		40D9386329AC4EFD006DAFDB /* SwiftUIExampleRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9386229AC4EFD006DAFDB /* SwiftUIExampleRootView.swift */; };
+		40D9386629AC5049006DAFDB /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D9386529AC5049006DAFDB /* extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		40D936ED29A5DBEC006DAFDB /* MainProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D936F129A5DBEC006DAFDB /* MainProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProjectUITests.swift; sourceTree = "<group>"; };
 		40D936F329A5DBEC006DAFDB /* MainProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40D9386029AC4696006DAFDB /* RadarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		40D9386229AC4EFD006DAFDB /* SwiftUIExampleRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleRootView.swift; sourceTree = "<group>"; };
+		40D9386529AC5049006DAFDB /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		40D936CF29A5DBEA006DAFDB /* MainProject */ = {
 			isa = PBXGroup;
 			children = (
+				40D9386429AC5031006DAFDB /* Utils */,
+				40D9385F29AC467E006DAFDB /* ViewControllerView */,
+				40D9385E29AC4672006DAFDB /* SwiftUIView */,
 				40D936D029A5DBEA006DAFDB /* AppDelegate.swift */,
 				40D936D229A5DBEA006DAFDB /* SceneDelegate.swift */,
 				40D936D429A5DBEA006DAFDB /* ViewController.swift */,
@@ -125,6 +134,30 @@
 				40D936F329A5DBEC006DAFDB /* MainProjectUITestsLaunchTests.swift */,
 			);
 			path = MainProjectUITests;
+			sourceTree = "<group>";
+		};
+		40D9385E29AC4672006DAFDB /* SwiftUIView */ = {
+			isa = PBXGroup;
+			children = (
+				40D9386229AC4EFD006DAFDB /* SwiftUIExampleRootView.swift */,
+				40D9386029AC4696006DAFDB /* RadarView.swift */,
+			);
+			path = SwiftUIView;
+			sourceTree = "<group>";
+		};
+		40D9385F29AC467E006DAFDB /* ViewControllerView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllerView;
+			sourceTree = "<group>";
+		};
+		40D9386429AC5031006DAFDB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				40D9386529AC5049006DAFDB /* extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D9386329AC4EFD006DAFDB /* SwiftUIExampleRootView.swift in Sources */,
 				40D936D529A5DBEA006DAFDB /* ViewController.swift in Sources */,
 				40D936D129A5DBEA006DAFDB /* AppDelegate.swift in Sources */,
 				40D936D329A5DBEA006DAFDB /* SceneDelegate.swift in Sources */,
+				40D9386129AC4696006DAFDB /* RadarView.swift in Sources */,
+				40D9386629AC5049006DAFDB /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
