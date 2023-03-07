@@ -11,6 +11,7 @@
 		4047A56029B728F600DF5633 /* Alamofire_Copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4047A55529B728F500DF5633 /* Alamofire_Copy.framework */; };
 		4047A56529B728F600DF5633 /* Alamofire_CopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4047A56429B728F600DF5633 /* Alamofire_CopyTests.swift */; };
 		4047A56629B728F600DF5633 /* Alamofire_Copy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4047A55829B728F500DF5633 /* Alamofire_Copy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4047A5AE29B7332900DF5633 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4047A5AD29B7332900DF5633 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4047A55929B728F500DF5633 /* Alamofire_Copy.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Alamofire_Copy.docc; sourceTree = "<group>"; };
 		4047A55F29B728F600DF5633 /* Alamofire-CopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alamofire-CopyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4047A56429B728F600DF5633 /* Alamofire_CopyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire_CopyTests.swift; sourceTree = "<group>"; };
+		4047A5AD29B7332900DF5633 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		4047A54B29B728F500DF5633 = {
 			isa = PBXGroup;
 			children = (
+				4047A5AC29B7331900DF5633 /* Source */,
 				4047A55729B728F500DF5633 /* Alamofire-Copy */,
 				4047A56329B728F600DF5633 /* Alamofire-CopyTests */,
 				4047A55629B728F500DF5633 /* Products */,
@@ -83,6 +86,14 @@
 				4047A56429B728F600DF5633 /* Alamofire_CopyTests.swift */,
 			);
 			path = "Alamofire-CopyTests";
+			sourceTree = "<group>";
+		};
+		4047A5AC29B7331900DF5633 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4047A5AD29B7332900DF5633 /* Alamofire.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4047A5AE29B7332900DF5633 /* Alamofire.swift in Sources */,
 				4047A55A29B728F500DF5633 /* Alamofire_Copy.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +408,7 @@
 		4047A56D29B728F600DF5633 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 235CHBTAW4;
@@ -412,6 +425,7 @@
 		4047A56E29B728F600DF5633 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 235CHBTAW4;
