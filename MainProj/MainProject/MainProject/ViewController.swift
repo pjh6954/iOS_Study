@@ -10,7 +10,8 @@ import SwiftUI
 
 class ViewController: UIViewController {
     private let vcList : [(vc: UIViewController.Type, name: String)] = [
-        (UIHostingController<SwiftUIExampleRootView>.self, "SwiftUIExampl View Controller")
+        (UIHostingController<SwiftUIExampleRootView>.self, "SwiftUIExampl View Controller"),
+        (MemoryLeakViewController.self, "Memory leak test view controller")
     ]
     @IBOutlet var searchBar: UISearchBar!
     @IBOutlet var tableView: UITableView!
@@ -53,6 +54,9 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
                 
             })
             return
+        } else if tuple.vc == MemoryLeakViewController.self {
+            let storyboard = UIStoryboard(name: "MemoryLeakViewController", bundle: nil)
+            vc = storyboard.instantiateViewController(withIdentifier: "MemoryLeakViewController") as? MemoryLeakViewController
         }
         guard let vc = vc else {
             return

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4047A5B229C9794300DF5633 /* MemoryLeakViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4047A5B129C9794300DF5633 /* MemoryLeakViewController.swift */; };
+		4047A5B429C99EA900DF5633 /* MemoryLeakViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4047A5B329C99EA900DF5633 /* MemoryLeakViewController.storyboard */; };
 		40D936D129A5DBEA006DAFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D936D029A5DBEA006DAFDB /* AppDelegate.swift */; };
 		40D936D329A5DBEA006DAFDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D936D229A5DBEA006DAFDB /* SceneDelegate.swift */; };
 		40D936D529A5DBEA006DAFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D936D429A5DBEA006DAFDB /* ViewController.swift */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4047A5B029C9779F00DF5633 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4047A5B129C9794300DF5633 /* MemoryLeakViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryLeakViewController.swift; sourceTree = "<group>"; };
+		4047A5B329C99EA900DF5633 /* MemoryLeakViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemoryLeakViewController.storyboard; sourceTree = "<group>"; };
 		40D936CD29A5DBEA006DAFDB /* MainProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D936D029A5DBEA006DAFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40D936D229A5DBEA006DAFDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4047A5AF29C9777800DF5633 /* MemoryLeakView */ = {
+			isa = PBXGroup;
+			children = (
+				4047A5B029C9779F00DF5633 /* README.md */,
+				4047A5B129C9794300DF5633 /* MemoryLeakViewController.swift */,
+				4047A5B329C99EA900DF5633 /* MemoryLeakViewController.storyboard */,
+			);
+			path = MemoryLeakView;
+			sourceTree = "<group>";
+		};
 		40D936C429A5DBEA006DAFDB = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +163,7 @@
 		40D9385F29AC467E006DAFDB /* ViewControllerView */ = {
 			isa = PBXGroup;
 			children = (
+				4047A5AF29C9777800DF5633 /* MemoryLeakView */,
 			);
 			path = ViewControllerView;
 			sourceTree = "<group>";
@@ -267,6 +283,7 @@
 				40D936DD29A5DBEC006DAFDB /* LaunchScreen.storyboard in Resources */,
 				40D936DA29A5DBEC006DAFDB /* Assets.xcassets in Resources */,
 				40D936D829A5DBEA006DAFDB /* Main.storyboard in Resources */,
+				4047A5B429C99EA900DF5633 /* MemoryLeakViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +310,7 @@
 			files = (
 				40D9386329AC4EFD006DAFDB /* SwiftUIExampleRootView.swift in Sources */,
 				40D936D529A5DBEA006DAFDB /* ViewController.swift in Sources */,
+				4047A5B229C9794300DF5633 /* MemoryLeakViewController.swift in Sources */,
 				40D936D129A5DBEA006DAFDB /* AppDelegate.swift in Sources */,
 				40D936D329A5DBEA006DAFDB /* SceneDelegate.swift in Sources */,
 				40D9386129AC4696006DAFDB /* RadarView.swift in Sources */,
